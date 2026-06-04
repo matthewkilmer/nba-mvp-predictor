@@ -1,0 +1,16 @@
+# virtual environment
+nba_env/
+
+# jupyter checkpoints
+.ipynb_checkpoints/
+
+# data files (too large for github)
+data/raw/
+data/processed/
+
+# python cache
+__pycache__/
+*.pyc
+
+# model files (optional - keep if under 100mb)
+# models/
