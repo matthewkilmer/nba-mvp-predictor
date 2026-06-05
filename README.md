@@ -9,13 +9,12 @@ on out-of-sample test seasons (2024-2026).
 ---
 
 ## Overview
-Brief 3-4 sentence description of the project, motivation, and result.
+The purpose of this project was to train a machine learning model to accurate predict the MVP share of NBA players over a given season. While the model was trained and tested on seasons that have already concluded, the utility of this model comes from the prospect of being able to continuously update MVP predictions throughout an NBA season, before the winners are chosen. This project includes data collection, cleaning & preprocessing, as well as the production of mulitple machine learning models. From there, a candidate model was chosen to make predictions seen in the streamlit app above.
 
 ---
 
 ## Demo
-Add a screenshot or GIF of your app here. This is the single most 
-important thing — recruiters spend 30 seconds on a README.
+<img width="1900" height="912" alt="image" src="https://github.com/user-attachments/assets/74f1900d-5b25-4568-96f1-586df73fbf9e" />
 
 ---
 
@@ -38,10 +37,15 @@ important thing — recruiters spend 30 seconds on a README.
 
 ## Project Structure
 nba-mvp-predictor/
+
 ├── app/          # Streamlit application
+
 ├── data/         # processed datasets
+
 ├── models/       # trained model files
+
 ├── notebooks/    # analysis notebooks
+
 └── src/          # reusable functions
 
 ---
