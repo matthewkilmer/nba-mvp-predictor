@@ -52,8 +52,11 @@ nba-mvp-predictor/
 
 ## How to Run Locally
 git clone https://github.com/matthewkilmer/nba-mvp-predictor.git
+
 cd nba-mvp-predictor
+
 pip install -r requirements.txt
+
 streamlit run app/app.py
 
 ---
